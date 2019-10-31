@@ -3,7 +3,8 @@
 // says "Go!" instead of "Ready"
 
 
-
+let header = document.querySelector("h1")
+header.innerText = "Go!"
 
 /// Do not modify the code below
 let h1 = document.querySelector("h1")
